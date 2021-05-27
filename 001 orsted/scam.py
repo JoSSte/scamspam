@@ -10,6 +10,7 @@ parentdir = os.path.dirname(currentdir)
 sys.path.append(parentdir)
 
 from tools.cards import generate_card
+from tools.birthday import generate_birthdate
 
 send = False
 random.seed = (os.urandom(1024))
@@ -18,18 +19,12 @@ random.seed = (os.urandom(1024))
 current_year = datetime.datetime.now().year - 2000
 current_month = datetime.datetime.now().month
 
-#variables for random date
-start_date = datetime.date(1940, 1, 1) #this is not longer in the past than it is realistic to be born that year
-end_date = datetime.date(2003, 1, 1) # you have to be 18 to have a credit card
-time_between_dates = end_date - start_date
-days_between_dates = time_between_dates.days
-
 url = 'https://ietarst-jansf7656.wpdevcloud.com/plugins/76g54fgf/24fhj23zet/jyukity68bf/gh65fdze43e/24qsfq24/valider.php'
 
-names = json.loads(open('../data/names.json').read())
-cards = json.loads(open('../data/cards.json').read())
-surnames = json.loads(open('../data/surnames.json').read())
-expiry_year = list(range(current_year, current_year + 4)) #since cards are typically valid about 4 years, and they
+card_types = ['Dankort','VisaDankort','Visa','Visa-Electron','MasterCard']
+names = json.loads(open('../data/names.json', encoding='utf-8').read())
+surnames = json.loads(open('../data/surnames.json', encoding='utf-8').read())
+expiry_year = list(range(current_year, current_year + 4)) #since cards are typically valid about 4 years, and they have to be valid
 expiry_month = list(range(1,13))
 
 #Check if the selected month is in the past, and fix it if it is so
@@ -44,12 +39,8 @@ for name in names:
         cvv = ''.join(random.choice(string.digits) for i in range(3))
         #Generate telephone number
         tlf = ''.join(random.choice(string.digits) for j in range(8))
-        #Generate random D.O.B
-        random_number_of_days = random.randrange(days_between_dates)
-        random_date = start_date + datetime.timedelta(days=random_number_of_days)
-        dob = '%02d-%02d-%d' % (random_date.day, random_date.month, random_date.year)
-
-        card = random.choice(cards)
+        dob = generate_birthdate()
+        card = generate_card(random.choice(card_types))
         # select expiry year        
         aar = random.choice(expiry_year)
         #select expiry month
