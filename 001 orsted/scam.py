@@ -4,6 +4,12 @@ import random
 import string
 import json
 import datetime
+import os, sys
+currentdir = os.path.dirname(os.path.realpath(__file__))
+parentdir = os.path.dirname(currentdir)
+sys.path.append(parentdir)
+
+from tools.cards import generate_card
 
 send = False
 random.seed = (os.urandom(1024))
@@ -23,12 +29,12 @@ url = 'https://ietarst-jansf7656.wpdevcloud.com/plugins/76g54fgf/24fhj23zet/jyuk
 names = json.loads(open('../data/names.json').read())
 cards = json.loads(open('../data/cards.json').read())
 surnames = json.loads(open('../data/surnames.json').read())
-expiryYear = list(range(current_year, current_year + 4)) #since cards are typically valid about 4 years, and they
-expiryMonth = list(range(1,13))
+expiry_year = list(range(current_year, current_year + 4)) #since cards are typically valid about 4 years, and they
+expiry_month = list(range(1,13))
 
 #Check if the selected month is in the past, and fix it if it is so
-if expiryYear == current_year and expiryMonth < current_month:
-    expiryMonth = current_month
+if expiry_year == current_year and expiry_month < current_month:
+    expiry_month = current_month
 
 for name in names:
     for surname in surnames:
@@ -45,9 +51,9 @@ for name in names:
 
         card = random.choice(cards)
         # select expiry year        
-        aar = random.choice(expiryYear)
+        aar = random.choice(expiry_year)
         #select expiry month
-        mon = '{:02d}'.format(random.choice(expiryMonth))
+        mon = '{:02d}'.format(random.choice(expiry_month))
         if send:
             r = requests.post(url, allow_redirects=False, data={
             	    'yy' : fullname,
