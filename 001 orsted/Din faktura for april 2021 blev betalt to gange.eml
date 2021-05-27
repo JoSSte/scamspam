@@ -1,0 +1,129 @@
+Return-Path: <pos.noreply@oeiizk.waw.pl>
+Delivered-To: xxx
+Received: from mx1.cst.mx.someisp.com ([10.27.13.11])
+	by mailstorage25.cst.mx.someisp.com with LMTP
+	id qMccN+vumWD9HAAABQpNgA
+	(envelope-from <pos.noreply@oeiizk.waw.pl>)
+	for <xxx>; Tue, 11 May 2021 02:41:47 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=custmx.someisp.com; s=20201015;
+	h=message-id:date:mime-version:content-type:to:subject:from:x-halone-refid:
+	 x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=XvIFJN3vkyiG09l/eFBcoOzVm5IWO8d3cQGla3Hl8Ac=;
+	b=Teb4RcJOcOHrHekvYZlxskRSqx9V8s0uOL9sYKeoJX8T0yEwRKeW7QbGzzDIUdqFVAfYRIoEY8ul0
+	 rXkuUcVGu/CvGQwc4i3j6HGuq0R/TaPrPgshbwqoiDRQXlpF1vxpIMaV4OlFebAVHFRpSQSAxMwar+
+	 n2LAv8rKCwyYq+QbuVSrNEyrH75Ed4qYft1v7t6W3Qkhl43+F7w662qh4gZvvZ7iv6sSv8y0MEn7S5
+	 lMXS7V958YKwb7mrK0iLuDcl37FHP029VKO70saH7MZ4tDdUmH8NsE3+Nw9IldulWPe6m3jSfyEHm7
+	 1loYc6OiAZEeBclSrJTVNkqqyjAY+sw==
+X-HalOne-SA: 0.4
+X-HalOne-RefID: str=0001.0A682F1E.60999818.0010,ss=3,sh,re=0.000,recu=0.000,reip=0.000,cl=3,cld=1,fgs=0
+X-HalOne-ID: 6dff7882-b202-11eb-a832-3448edec2b90
+Received: from smtpout226.vodafone.arubamail.it (smtpout06-vf.aruba.it [62.149.179.206])
+	by mx1.pub.mx.someisp.com (Halon) with ESMTP
+	id 6dff7882-b202-11eb-a832-3448edec2b90;
+	Tue, 11 May 2021 02:41:47 +0000 (UTC)
+Received: from iat-PC ([62.133.44.51])
+	by smtpcmd02.vf.aruba.it with bizsmtp
+	id 3EhQ2500216Enhq01EhluS; Tue, 11 May 2021 04:41:46 +0200
+From: =?iso-8859-1?B?2HJzdGVkIEEvUw==?= <pos.noreply@oeiizk.waw.pl>
+Subject: Din faktura for april 2021 blev betalt to gange
+To: <xxx>
+Content-Type: multipart/alternative; boundary="if=_HQtLg6VRDwRSPPxSeiE9w6UKMP4vFg"
+MIME-Version: 1.0
+Date: Tue, 11 May 2021 04:41:47 +0200
+Message-Id: <114620210541049528906CAC$0443C6C79A@IATPC>
+
+This is a multi-part message in MIME format
+
+--if=_HQtLg6VRDwRSPPxSeiE9w6UKMP4vFg
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+=D8rsted
+
+DIN FAKTURA ER ONLINE=20
+
+Hej ,=20
+
+Vi informerer dig skriftligt om, at den sidste afvikling af din faktur=
+a for April 2021 blev betalt 2 gange.=20
+
+Vi inviterer dig til at anmode om en refusion ved at klikke p=E5 linke=
+t herunder:
+
+Anmodning om refusion https://u.to/d2ZPGw
+
+Bem=E6rk: Hvis dette ikke l=F8ses inden for de n=E6ste 12 timer, er de=
+r ingen refusion tilg=E6ngelig.
+
+Tak for dit samarbejde i denne sag.
+
+--if=_HQtLg6VRDwRSPPxSeiE9w6UKMP4vFg
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-=
+8859-1">
+  <META name=3DGenerator content=3D10.81> <META name=3Dviewport conten=
+t=3D"width=3Ddevice-width, initial-scale=3D1"> <META name=3Dformat-det=
+ection content=3Dtelephone=3Dno> <title>Din faktura for april 2021 ble=
+v betalt to gange</title>
+ </head>
+ <body style=3D"BACKGROUND-COLOR: #ffffff" bgColor=3D#ffffff> <DIV sty=
+le=3D"MIN-WIDTH: 320px; BACKGROUND-COLOR: transparent; MARGIN: 0px aut=
+o; MAX-WIDTH: 500px" class=3Dblock-grid> <DIV style=3D"BACKGROUND-COLO=
+R: transparent; WIDTH: 500px; DISPLAY: table; BORDER-COLLAPSE: collaps=
+e"> <DIV style=3D"MIN-WIDTH: 320px; WIDTH: 500px; DISPLAY: table-cell;=
+ MAX-WIDTH: 500px; VERTICAL-ALIGN: top" class=3D"col num12"> <DIV styl=
+e=3D"WIDTH: 500px"> <DIV style=3D"BORDER-BOTTOM: rgb(85,85,85) 1px sol=
+id; BORDER-LEFT: transparent 0px solid; PADDING-BOTTOM: 5px; PADDING-L=
+EFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: transparent 0px solid; BORDE=
+R-RIGHT: transparent 0px solid; PADDING-TOP: 5px"> <DIV style=3D"PADDI=
+NG-LEFT: 0px; PADDING-RIGHT: 0px" class=3D"img-container center autowi=
+dth" align=3Dcenter><SPAN style=3D"TEXT-ALIGN: left; WIDOWS: 2; TEXT-T=
+RANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); FONT-STYLE: normal=
+; TEXT-INDENT: 0px; DISPLAY: inline !important; FONT-FAMILY: 'Google S=
+ans', arial, sans-serif; WHITE-SPACE: normal; ORPHANS: 2; FLOAT: none;=
+ LETTER-SPACING: normal; COLOR: rgb(102,51,255); FONT-SIZE: 30px; FONT=
+-WEIGHT: 400; WORD-SPACING: 0px">=D8rsted</SPAN><BR></DIV> <DIV style=3D=
+"PADDING-LEFT: 0px; PADDING-RIGHT: 0px" class=3D"img-container center =
+autowidth" align=3Dcenter> <HR><P><SPAN style=3D"COLOR: rgb(0,0,255)">=
+<SPAN style=3D"TEXT-TRANSFORM: uppercase; FONT-FAMILY: pebble, 'helvet=
+ica neue', helvetica, helvetica, arial, sans-serif; FONT-SIZE: 20px">D=
+IN FAKTURA ER ONLINE&nbsp;</SPAN></SPAN></P></DIV> <DIV style=3D"PADDI=
+NG-BOTTOM: 10px; LINE-HEIGHT: 1.2; PADDING-LEFT: 10px; PADDING-RIGHT: =
+10px; FONT-FAMILY: arial, 'helvetica neue', helvetica, sans-serif; COL=
+OR: rgb(85,85,85); PADDING-TOP: 10px">Hej ,&nbsp;</DIV> <DIV style=3D"=
+PADDING-BOTTOM: 10px; LINE-HEIGHT: 1.2; PADDING-LEFT: 10px; PADDING-RI=
+GHT: 10px; FONT-FAMILY: arial, 'helvetica neue', helvetica, sans-serif=
+; COLOR: rgb(85,85,85); PADDING-TOP: 10px">Vi informerer dig skriftlig=
+t om, at den sidste afvikling af din faktura for&nbsp;<SPAN style=3D"C=
+OLOR: rgb(85,85,85)">April</SPAN><SPAN id=3DOBJ_PREFIX_DWT52_com_zimbr=
+a_date class=3DObject><SPAN id=3DOBJ_PREFIX_DWT57_com_zimbra_date clas=
+s=3DObject>&nbsp;2021</SPAN></SPAN>&nbsp;blev betalt 2 gange. <DIV sty=
+le=3D"LINE-HEIGHT: 1.2; FONT-FAMILY: arial, 'helvetica neue', helvetic=
+a, sans-serif; COLOR: rgb(85,85,85); FONT-SIZE: 14px"> <P class=3Dp1>V=
+i inviterer dig til at anmode om en refusion ved at klikke p=E5 linket=
+ herunder:</p><p class=3Dp1>&nbsp;</p><p><SPAN id=3DOBJ_PREFIX_DWT53_c=
+om_zimbra_url class=3DObject><SPAN id=3DOBJ_PREFIX_DWT58_com_zimbra_ur=
+l class=3DObject>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp; <A href=3D"https://u.to/d2ZPGw" rel=3Dnoreferrer target=3D=
+_blank><SPAN style=3D"COLOR: rgb(0,0,255)">Anmodning om refusion</SPAN=
+></A></SPAN></SPAN></p><p><SPAN style=3D"FONT-SIZE: 14px">Bem=E6rk: Hv=
+is dette ikke l=F8ses inden for de n=E6ste 12 timer, er der ingen refu=
+sion tilg=E6ngelig.</SPAN></P></DIV> <DIV style=3D"LINE-HEIGHT: 1.2; F=
+ONT-FAMILY: arial, 'helvetica neue', helvetica, sans-serif; COLOR: rgb=
+(85,85,85); FONT-SIZE: 14px"> <P>Tak for dit samarbejde i denne sag.</=
+P> <DIV style=3D"PADDING-BOTTOM: 10px; LINE-HEIGHT: 1.2; PADDING-LEFT:=
+ 10px; PADDING-RIGHT: 10px; FONT-FAMILY: arial, 'helvetica neue', helv=
+etica, sans-serif; COLOR: rgb(85,85,85); PADDING-TOP: 10px">&nbsp;</DI=
+V></DIV></DIV></DIV></DIV></DIV></DIV></DIV></body>
+ </html>
+
+--if=_HQtLg6VRDwRSPPxSeiE9w6UKMP4vFg--
+
