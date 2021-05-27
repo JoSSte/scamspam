@@ -14,18 +14,14 @@ from tools.cards import validate_luhn
 from tools.cards import calculate_checkdigit
 
 
-#Validating cards
-cards = json.loads(open('../data/cards.json').read())
-for card in cards:
-    print("Validating %s to %s" % (card, validate_luhn(card)))
-
 # checking checkdigit
 c = '4012888888881881'
 expected = 1
 actual = calculate_checkdigit(c)
 print("Checkdigit for %s should be %d is %s" % (c, actual, actual == expected))
 
-
+#generate and validate 20 cards of each type
 for t in ['Dankort','VisaDankort','Visa','Visa-Electron','MasterCard','MasterCard2']:
-    gc = generate_card(t)
-    print("Validating %s to %s" % (gc, validate_luhn(gc)))
+    for x in range(20):
+        gc = generate_card(t)
+        print("Validating %s card %s to %s" % (t, gc, validate_luhn(gc)))
