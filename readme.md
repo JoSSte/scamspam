@@ -16,6 +16,8 @@ Experimenting wit poisoning scammers' data with unusable data
 
 ### Credit card number validator
 * https://www.validcreditcardnumber.com/  
+* https://www.creditcardvalidator.org/
+* https://www.dcode.fr/luhn-algorithm
 
 ### Credit card number Generator
 * 
