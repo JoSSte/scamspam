@@ -57,6 +57,8 @@ def generate_card(ctype):
 #Generators for dates
 
 current_year = datetime.datetime.now().year - 2000
+current_month = datetime.datetime.now().month
+
 max_validity = 4
 valid_expiry_year_list = list(range(current_year, current_year + max_validity))
 expired_expiry_year_list = list(range(current_year - 9, current_year))
@@ -67,3 +69,14 @@ def generate_expiry_year(valid=True):
     else:
         year = random.choice(expired_expiry_year_list)
     return year
+
+def generate_expiry_month():
+    month = list(range(1,13))
+    return '{:02d}'.format(random.choice(month))
+
+def generate_expiry_date(valid=True):
+    year = generate_expiry_year(valid)
+    month = generate_expiry_month()
+    if valid and year ==current_year and int(month) < current_month:
+        month = '{:02d}'.format(current_month)
+    return year, month
