@@ -12,7 +12,7 @@ from tools.cards import generate_card
 from tools.cards import validate_card
 from tools.cards import validate_luhn
 from tools.cards import calculate_checkdigit
-
+from tools.cards import generate_expiry_year
 
 # checking checkdigit
 c = '4012888888881881'
@@ -25,3 +25,7 @@ for t in ['Dankort','VisaDankort','Visa','Visa-Electron','MasterCard','MasterCar
     for x in range(20):
         gc = generate_card(t)
         print("Validating %s card %s to %s" % (t, gc, validate_luhn(gc)))
+
+print(generate_expiry_year())
+print(generate_expiry_year(True))
+print(generate_expiry_year(False))
