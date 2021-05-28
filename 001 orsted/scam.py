@@ -29,8 +29,9 @@ for name in names:
         #Generate telephone number
         tlf = ''.join(random.choice(string.digits) for j in range(8))
         dob = generate_birthdate()
+        #generate a random card, based on a random card type
         card = tools.cards.generate_card(random.choice(card_types))
-                
+        
         expiry_year, expiry_month = tools.cards.generate_expiry_date()
         
         if send:
