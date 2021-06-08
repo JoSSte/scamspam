@@ -1,6 +1,7 @@
 import random
 import json
 import string
+import datetime
 
 card_iins = json.loads(open('../data/iin.json').read())
 
@@ -35,7 +36,7 @@ def calculate_checkdigit(number):
 
 #Validate whether the card number validates aaccording to the Luhn algorithm
 def validate_luhn(cardnum):
-    
+
     return_val = False
     checkdigit = calculate_checkdigit(cardnum)
     if checkdigit == int(cardnum[len(cardnum)-1]):
@@ -52,3 +53,30 @@ def generate_card(ctype):
     checkdigit = calculate_checkdigit(cardnum)
     cardnum = cardnum + str(checkdigit)
     return cardnum
+
+#Generators for dates
+
+current_year = datetime.datetime.now().year - 2000
+current_month = datetime.datetime.now().month
+
+max_validity = 4
+valid_expiry_year_list = list(range(current_year, current_year + max_validity))
+expired_expiry_year_list = list(range(current_year - 9, current_year))
+
+def generate_expiry_year(valid=True):
+    if valid:
+        year = random.choice(valid_expiry_year_list)
+    else:
+        year = random.choice(expired_expiry_year_list)
+    return year
+
+def generate_expiry_month():
+    month = list(range(1,13))
+    return '{:02d}'.format(random.choice(month))
+
+def generate_expiry_date(valid=True):
+    year = generate_expiry_year(valid)
+    month = generate_expiry_month()
+    if valid and year ==current_year and int(month) < current_month:
+        month = '{:02d}'.format(current_month)
+    return year, month
