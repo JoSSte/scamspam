@@ -1,0 +1,136 @@
+Return-Path: <raffaella.manassero@poosteen.pl>
+Delivered-To: jonas@stevnsvig.com
+Received: from mx3.cst.mailpod10-cph3.one.com ([10.27.13.13])
+	by mailstorage25.cst.mailpod10-cph3.one.com with LMTP
+	id 8CUAK4XzzWDPQgAABQpNgA
+	(envelope-from <raffaella.manassero@poosteen.pl>)
+	for <jonas@stevnsvig.com>; Sat, 19 Jun 2021 13:39:17 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=custmx.one.com; s=20201015;
+	h=message-id:date:mime-version:content-type:to:subject:from:x-halone-refid:
+	 x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=WwZlfo879qJZKNxEWpStBRVULGLUvQ0Jr57L0fyOvJY=;
+	b=imPKpx5V72xEXq9q3SPLd9+wP3cDJyVFlKhL6D/38qybB1GGrtgWjm2tVqDXy01g8O77PJYF0wXvV
+	 EKVAYZ4nTf8P0xYbjMIO3Ll8PDawizR7ALkCnSFwNdK7SfBbw4Th3uRajs201iqxI8FAm7sIohut+b
+	 xidcqXHOnEeuxNKZp4O2bJ5bsgOm6heVAhyOx6/KobRVn2ZxwNQyBQJCM3yW8nD0F8Rr8sVObYVjXT
+	 MxwJZhhKjr7Cg1dhOsmZ3TISAlVzRznuqhedpd5aGSy4/5RW5+ox0Ny6ujR3V76pYvbudk9JVnPHEv
+	 g+OuW7iG6SLOib9ID3L/Wk1e0s8aIMw==
+X-HalOne-SA: 1.4
+X-HalOne-RefID: str=0001.0A682F15.60CD96AB.001B,ss=3,sh,re=0.000,recu=0.000,reip=0.000,cl=3,cld=1,fgs=0
+X-HalOne-ID: be1735e9-d103-11eb-bc1c-3448edec7f58
+Received: from smtpout11-vf.aruba.it (smtpout12-vf.aruba.it [62.149.179.212])
+	by mx3.pub.mailpod10-cph3.one.com (Halon) with ESMTP
+	id be1735e9-d103-11eb-bc1c-3448edec7f58;
+	Sat, 19 Jun 2021 13:39:17 +0000 (UTC)
+Received: from BirgerKoefoed-N ([91.233.117.204])
+	by smtpcmd03.vf.aruba.it with bizsmtp
+	id K1da250024QgvRF011fGjT; Sat, 19 Jun 2021 15:39:16 +0200
+From: =?iso-8859-1?B?QWEg2HJzdGVk?= <raffaella.manassero@poosteen.pl>
+Subject: Faktura
+To: <jonas@stevnsvig.com>
+Content-Type: multipart/alternative; boundary="R=_vfKU8UfGY1SAkqF8LShRNEITDJQljOt"
+MIME-Version: 1.0
+Date: Sat, 19 Jun 2021 09:39:16 -0400
+Message-Id: <19162021063909BCB3224444$EC1D64E0B8@BIRGERKOEFOEDN>
+
+This is a multi-part message in MIME format
+
+--R=_vfKU8UfGY1SAkqF8LShRNEITDJQljOt
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+logo https://orsted.dk/
+
+Hej ,=20
+Vi informerer dig skriftligt om, at den sidste afvikling af din faktur=
+a for Maj 2021 blev betalt 2 gange.
+Vi inviterer dig til at anmode om en refusion ved at klikke p=E5 linke=
+t herunder:
+
+Anmodniom refusionng https://u.to/TqNnGw
+
+Bem=E6rk: Hvis dette ikke l=F8ses inden for de n=E6ste 12 timer, er de=
+r ingen refusion tilg=E6ngelig.
+Tak for dit samarbejde i denne sag.
+
+=D8rsted A/S
+Kraftv=E6rksvej 53
+Sk=E6rb=E6k
+7000 Fredericia
+Denmark
+
+--R=_vfKU8UfGY1SAkqF8LShRNEITDJQljOt
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-=
+8859-1">
+  <META name=3DGenerator content=3D10.81> <META name=3Dviewport conten=
+t=3D"width=3Ddevice-width, initial-scale=3D1"> <META name=3Dformat-det=
+ection content=3Dtelephone=3Dno> <title>Faktura</title>
+ </head>
+ <body style=3D"BACKGROUND-COLOR: #ffffff" bgColor=3D#ffffff> <P><tabl=
+e id=3Dv1ko_textBlock_4 class=3D"v1vb-outer" style=3D"FONT-SIZE: 13px;=
+ FONT-FAMILY: helveticaneueregular,helvetica,arial,sans-serif; WHITE-S=
+PACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; MIN-WIDTH:=
+ 0px !important; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44=
+,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; LETTER-SPACING: normal;=
+ BACKGROUND-COLOR: rgb(242,242,242); TEXT-INDENT: 0px" cellSpacing=3D0=
+ cellPadding=3D0 width=3D"100%" bgColor=3D#f2f2f2 border=3D0> <tr><td =
+class=3Dv1vb-outer style=3D"FONT-SIZE: 0px; MIN-WIDTH: 0px !important;=
+ COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEF=
+T: 9px; PADDING-RIGHT: 9px" vAlign=3Dtop align=3Dcenter> <DIV style=3D=
+"MAX-WIDTH: 570px; BORDER-TOP: 0px; PADDING-TOP: 0px; MARGIN: 0px auto=
+"><table class=3D"v1vb-container" style=3D"MAX-WIDTH: 570px; WIDTH: 57=
+0px; BORDER-COLLAPSE: collapse; BORDER-SPACING: 18px; BACKGROUND-COLOR=
+: rgb(255,255,255)" cellSpacing=3D18 cellPadding=3D0 width=3D570 bgCol=
+or=3D#ffffff border=3D0> <tr><td class=3D"v1long-text v1links-color" s=
+tyle=3D"FONT-SIZE: 13px; FONT-FAMILY: arial,helvetica,sans-serif; COLO=
+R: rgb(63,63,63); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT:=
+ 0px; LINE-HEIGHT: normal; PADDING-RIGHT: 0px" vAlign=3Dtop width=3D"1=
+00%" align=3Dleft> <P style=3D"MARGIN-TOP: 0px"><SPAN id=3Dv1OBJ_PREFI=
+X_DWT83_com_zimbra_url class=3Dv1Object style=3D"CURSOR: pointer; TEXT=
+-DECORATION: none; COLOR: rgb(0,17,12)"><SPAN role=3Dlink id=3DOBJ_PRE=
+FIX_DWT103_com_zimbra_url class=3DObject><A class=3Dv1header-logo-link=
+ style=3D"CURSOR: pointer; TEXT-DECORATION: none; COLOR: rgb(0,17,12);=
+ BACKGROUND-COLOR: transparent" href=3D"https://orsted.dk/" rel=3Dnore=
+ferrer target=3D_blank><IMG class=3Dv1header-logo-image-desktop style=3D=
+"BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; VERTICAL-ALIGN: midd=
+le; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" alt=3Dlogo sr=
+c=3D"https://orstedcdn.azureedge.net/-/media/www/images/corp/graphics/=
+logos/orsted-logo/orstedlogopng.ashx?mh=3D1440&amp;mw=3D1440&amp;rev=3D=
+2c88f511d0474d379982ac2579d2dace&amp;hash=3D1QDNWjJdBnNp8JNuQFhRWeQXL3=
+fDb84cVS" width=3D133 dfsrc=3D"https://orstedcdn.azureedge.net/-/media=
+/www/images/corp/graphics/logos/orsted-logo/orstedlogopng.ashx?mh=3D14=
+40&amp;mw=3D1440&amp;rev=3D2c88f511d0474d379982ac2579d2dace&amp;hash=3D=
+1QDNWjJdBnNp8JNuQFhRWeQXL3fDb84cVS" saveddisplaymode=3D""></A></SPAN><=
+/SPAN></P>Hej , <BR>Vi informerer dig skriftligt om, at den sidste afv=
+ikling af din faktura for&nbsp;Maj<SPAN role=3Dlink id=3DOBJ_PREFIX_DW=
+T104_com_zimbra_date class=3DObject> 2021</SPAN> blev betalt 2 gange.<=
+BR>Vi inviterer dig til at anmode om en refusion ved at klikke p=E5 li=
+nket herunder:<BR><BR>&nbsp;<SPAN role=3Dlink id=3DOBJ_PREFIX_DWT105_c=
+om_zimbra_url class=3DObject><A href=3D"https://u.to/TqNnGw" target=3D=
+_blank>Anmodniom refusionng </A></SPAN><BR><BR>Bem=E6rk: Hvis dette ik=
+ke l=F8ses inden for de n=E6ste 12 timer, er der ingen refusion tilg=E6=
+ngelig.<BR><BR>Tak for dit samarbejde i denne sag.<BR> <P style=3D"MAR=
+GIN-TOP: 0px"><STRONG style=3D"FONT-WEIGHT: bolder">=D8rsted A/S</STRO=
+NG><BR>Kraftv=E6rksvej 53<BR>Sk=E6rb=E6k<BR>7000 Fredericia<BR>Denmark=
+</P></TD></TR></TABLE></DIV></TD></TR></TABLE><table id=3Dv1ko_buttonB=
+lock_5 class=3D"v1vb-outer" style=3D"FONT-SIZE: 13px; FONT-FAMILY: hel=
+veticaneueregular,helvetica,arial,sans-serif; WHITE-SPACE: normal; WOR=
+D-SPACING: 0px; BORDER-COLLAPSE: collapse; MIN-WIDTH: 0px !important; =
+TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STY=
+LE: normal; TEXT-ALIGN: left; LETTER-SPACING: normal; BACKGROUND-COLOR=
+: rgb(242,242,242); TEXT-INDENT: 0px" cellSpacing=3D0 cellPadding=3D0 =
+width=3D"100%" bgColor=3D#f2f2f2 border=3D0> <tr><td class=3Dv1vb-oute=
+r style=3D"FONT-SIZE: 0px; MIN-WIDTH: 0px !important; COLOR: rgb(0,0,0=
+); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 9px; PADDING-R=
+IGHT: 9px" vAlign=3Dtop align=3Dcenter>&nbsp;</TD></TR></TABLE></P></b=
+ody>
+ </html>
+
+--R=_vfKU8UfGY1SAkqF8LShRNEITDJQljOt--
+
